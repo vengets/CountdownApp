@@ -1,0 +1,32 @@
+h1 {
+    font-size: 4rem;
+}
+body {
+    background: url("https://images.unsplash.com/photo-1577046848358-4623c0859b8a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=kelly-sikkema-PXl_S152jNM-unsplash.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.countdown {
+    display: flex;
+    position: relative;
+place-content: center;
+text-align: center;
+}
+
+.time {
+    display: flex;
+    font-size: 6rem;
+    background: rgba(76, 175, 80, 0.5);
+    margin: 0 2rem;
+}
+.countdown span {
+font-palette: dark;
+    background: rgba(255, 139, 249, 0.4);
+}
+
+h1 {
+    background: rgba(255, 139, 249, 0.4);
+}
